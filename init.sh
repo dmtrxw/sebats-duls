@@ -44,8 +44,7 @@ echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile
 
 echo
 
-# cask and wget
-brew tap caskroom/cask
+# wget
 brew install wget
 
 # zsh and oh-my-zsh
