@@ -51,6 +51,9 @@ brew install wget
 brew install zsh zsh-completions
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
+# DNS
+brew cask install dnscrypt
+
 # Core Apps
 brew cask install iterm2
 brew cask install java
