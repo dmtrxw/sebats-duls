@@ -47,10 +47,6 @@ echo
 # wget
 brew install wget
 
-# zsh and oh-my-zsh
-brew install zsh zsh-completions
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-
 # DNS
 brew cask install dnscrypt
 
@@ -104,15 +100,19 @@ npm install -g mocha
 npm install -g jest
 npm install -g firebase-tools
 npm install -g aws-sdk
-npm install -g vue-cli
+npm install -g @vue/cli
 npm install -g express-generator
 npm install -g exp
 
-# Cleanup
-brew cleanup
+# zsh and oh-my-zsh
+brew install zsh zsh-completions
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 # Change default shell to zsh
 chsh -s $(which zsh)
+
+# Cleanup
+brew cleanup
 
 echo
 echo "Done!"
