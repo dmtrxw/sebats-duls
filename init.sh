@@ -29,7 +29,7 @@ cp .tmux/.tmux.conf.local .
 brew cask install postman
 brew cask install macdown
 
-brew install heroku-toolbelt
+brew install heroku
 heroku update
 
 brew install docker
