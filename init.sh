@@ -11,7 +11,6 @@ echo
 cd ~
 
 brew install wget
-brew cask install dnscrypt
 brew cask install iterm2
 brew cask install java
 brew cask install vlc
