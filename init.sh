@@ -35,8 +35,7 @@ brew cask install spotify
 brew cask install tunnelbear
 brew cask install whatsapp
 
-brew install heroku
-heroku update
+brew tap heroku/brew && brew install heroku
 
 brew install docker
 brew install node
