@@ -28,6 +28,7 @@ cp .tmux/.tmux.conf.local .
 
 brew cask install postman
 brew cask install macdown
+brew cask install karabiner-elements
 
 brew install heroku
 heroku update
