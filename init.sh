@@ -2,45 +2,9 @@
 clear
 echo "About to unleash the beast!"
 echo
-echo "Enter admin password"
 
-# Ask for sudo upfront
-sudo -K
-sudo true;
-
-# Keep-alive: update existing `sudo` time stamp until finished
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
-
-# Homebrew
-if hash brew 2>/dev/null; then
-  echo "Homebrew is already installed!"
-else
-  echo "Installing Homebrew..."
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
-
-echo
-echo "Ensuring you have the latest Homebrew..."
-brew update
-
-echo
-echo "Ensuring your Homebrew directory is writable..."
+echo "Ensuring your /usr/local/bin directory is writable by user..."
 sudo chown -R $(whoami) /usr/local/bin
-
-echo
-echo "Installing Homebrew services..."
-brew tap homebrew/services
-
-echo
-echo "Upgrading existing brews..."
-brew upgrade
-
-echo "Cleaning up your Homebrew installation..."
-brew cleanup
-
-echo
-echo "Adding Homebrew's sbin to your PATH..."
-echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile
 
 echo
 
@@ -61,12 +25,13 @@ brew cask install google-chrome
 brew cask install firefox
 
 # Communication
-brew cask install slack
+# brew cask install slack
 
 # Dev Tools
 brew install git
-brew cask install visual-studio-code
-brew cask install insomnia
+# brew cask install visual-studio-code
+# brew cask install insomnia
+brew cask install postman
 brew cask install macdown
 brew install heroku-toolbelt
 brew cask install expo-xde
@@ -78,7 +43,7 @@ brew cask install postgres
 brew install node
 brew install postgres
 brew install redis
-brew cask install mongodb
+brew install mongodb
 brew install yarn
 
 # PHP
