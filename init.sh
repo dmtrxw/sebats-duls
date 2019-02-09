@@ -29,6 +29,12 @@ cp .tmux/.tmux.conf.local .
 brew cask install postman
 brew cask install macdown
 brew cask install karabiner-elements
+brew cask install postico
+brew cask install qbittorrent
+brew cask install sequel-pro
+brew cask install spotify
+brew cask install tunnelbear
+brew cask install whatsapp
 
 brew install heroku
 heroku update
