@@ -36,6 +36,7 @@ brew cask install tunnelbear
 brew cask install whatsapp
 
 brew tap heroku/brew && brew install heroku
+heroku autocomplete
 
 brew install docker
 brew install node
