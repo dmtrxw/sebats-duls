@@ -63,6 +63,7 @@ npm install -g aws-sdk
 npm install -g @vue/cli
 npm install -g express-generator
 npm install -g exp
+npm install -g expo-cli
 
 # brew cask install slack
 # brew cask install visual-studio-code
