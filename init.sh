@@ -19,6 +19,7 @@ brew cask install google-chrome
 brew cask install firefox
 
 brew install git
+brew install coreutils
 brew install vim
 brew install tmux
 git clone https://github.com/gpakosz/.tmux.git
