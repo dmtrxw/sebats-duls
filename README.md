@@ -1,12 +1,7 @@
-# mac-first-time-setup
-My first time setup after a clean install (macOS)
+# sebats-duls
+Script to install things I need after macOS clean install. Jalanin scriptnya, terus tinggal sebats duls.
 
 ## How to use 🔧
-```sh
-$ curl -O https://raw.githubusercontent.com/dmtrxw/mac-first-time-setup/master/init.sh
-# Downloads the script
-$ chmod +x init.sh
-# Makes the script executable
-$ ./init.sh
-# Executes the script
-```
+1. Run `init.sh` and make sure there are no errors.
+2. Run `install.sh`.
+3. Sebats duls sambil nunggu installnya kelar.
