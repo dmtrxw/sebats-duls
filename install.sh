@@ -15,20 +15,14 @@ brew cask install iterm2
 brew cask install vlc
 brew cask install google-chrome
 brew cask install firefox
-brew cask install whatsapp
 brew cask install spotify
 brew cask install the-unarchiver
 brew cask install slack
-brew cask install nordvpn
-brew cask install visual-studio-code
 brew cask install postman
 brew cask install karabiner-elements
 brew cask install qbittorrent
-brew cask install sequel-pro
-brew cask install postico
 brew cask install android-studio
 
-npm install -g react-native-cli
 npm install -g @vue/cli
 npm install -g create-react-app
 npm install -g expo-cli
