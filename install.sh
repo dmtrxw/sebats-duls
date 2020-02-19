@@ -6,6 +6,7 @@ brew install git
 brew install coreutils
 brew install vim
 brew install tmux
+brew install fzf
 brew install pygments
 brew install ack
 brew install watchman
