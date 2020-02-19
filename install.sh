@@ -11,7 +11,6 @@ brew install pygments
 brew install ack
 brew install watchman
 
-brew cask install macvim
 brew cask install iterm2
 brew cask install vlc
 brew cask install google-chrome
