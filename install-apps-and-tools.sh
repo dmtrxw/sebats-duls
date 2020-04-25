@@ -22,7 +22,10 @@ brew cask install postman
 brew cask install karabiner-elements
 brew cask install qbittorrent
 brew cask install android-studio
-
-npm install -g @vue/cli
-npm install -g create-react-app
-npm install -g expo-cli
+brew cask install visual-studio-code
+brew cask install sublime-text
+brew cask install folx
+brew cask install zoomus
+brew cask install whatsapp
+brew cask install android-file-transfer
+brew cask install discord
