@@ -15,7 +15,8 @@ fzf \
 pygments \
 ack \
 watchman \
-efm-langserver
+efm-langserver \
+ripgrep
 
 # Install GUIs
 brew install --cask \
