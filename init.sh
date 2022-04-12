@@ -70,7 +70,8 @@ nodemon \
 pm2 \
 neovim \
 live-server \
-json-server
+json-server \
+prettier
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
