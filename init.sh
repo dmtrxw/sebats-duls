@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# Disable keyboard accents
+defaults write -g ApplePressAndHoldEnabled -bool false
+
 # Install CLI Tools
 brew install \
 wget \
@@ -11,7 +14,8 @@ tmux \
 fzf \
 pygments \
 ack \
-watchman
+watchman \
+efm-langserver
 
 # Install GUIs
 brew install --cask \
