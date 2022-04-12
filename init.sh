@@ -1,5 +1,4 @@
-# Install brew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#!/bin/zsh
 
 # Install CLI Tools
 brew install \
@@ -44,17 +43,17 @@ curl -sSL https://get.rvm.io | bash -s stable
 # Install NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 nvm install --lts
 nvm use --lts
 
 # Clone public dotfiles
 cd
 git clone https://github.com/dmtrxw/public-dotfiles.git
-rm -rf public-dotfiles/.git
-mv public-dotfiles/{.,}* .
+rm -rf public-dotfiles/.git/
+cp -r public-dotfiles/.* .
 rm -rf public-dotfiles
-
-source .zshrc
 
 npm install -g \
 typescript \
@@ -64,3 +63,6 @@ pm2 \
 neovim \
 live-server \
 json-server
+
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
