@@ -27,12 +27,10 @@ spotify \
 the-unarchiver \
 slack \
 postman \
-karabiner-elements \
 qbittorrent \
 android-studio \
 visual-studio-code \
 sublime-text \
-zoomus \
 android-file-transfer \
 discord
 
