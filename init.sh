@@ -33,6 +33,14 @@ zoomus \
 android-file-transfer \
 discord
 
+# Setup tmux
+cd
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+
+# Install RVM
+curl -sSL https://get.rvm.io | bash -s stable
+
 # Install NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
