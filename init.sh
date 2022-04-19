@@ -65,6 +65,7 @@ rm -rf public-dotfiles
 npm install -g \
 typescript \
 typescript-language-server \
+emmet-ls \
 nodemon \
 pm2 \
 neovim \
