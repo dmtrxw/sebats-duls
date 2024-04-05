@@ -55,10 +55,10 @@ rm -rf public-dotfiles
 
 npm install -g \
 json-server \
-live-server \
 neovim \
 nodemon \
 pm2 \
 prettier \
+serve \
 typescript-language-server \
 typescript
